@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#4F1F34">
+    <TextView
+        android:id="@+id/beer_view_b_tips_title"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Tips!"
+        android:textColor="#fff" />
+        <TextView
+            android:id="@+id/beer_view_b_tips_content"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="ABV : 맥주의 도수\nIBU : 맥주의 쓴 맛 정도\nSRM : 맥주의 색깔 지수 (수치: 2~40+ 높으면 높을수록 어두운색)"
+            android:textColor="#fff" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
